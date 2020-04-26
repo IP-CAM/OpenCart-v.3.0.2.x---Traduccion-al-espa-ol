@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']      = 'Pago al Entregar';
+$_['heading_title']      = 'Tarifa de Despacho';
 
 // Text
 $_['text_extension']     = 'Extensiones';
-$_['text_success']       = 'Operación Exitosa: Pago al Entregar Modificado.';
-$_['text_edit']          = 'Editar Pago al Entregar';
+$_['text_success']       = 'Success: El registro a sido modificado!';
+$_['text_edit']          = 'Modificar Tarifa';
 
 // Entry
 $_['entry_total']        = 'Total';
-$_['entry_order_status'] = 'Estado del Pedido';
-$_['entry_geo_zone']     = 'Zona Geográfica';
-$_['entry_status']       = 'Estado';
-$_['entry_sort_order']   = 'Orden';
+$_['entry_order_status'] = 'Order Status';
+$_['entry_geo_zone']     = 'Geo Zone';
+$_['entry_status']       = 'Status';
+$_['entry_sort_order']   = 'Sort Order';
 
 // Help
-$_['help_total']         = 'Total del Pedido a Alcanzar antes de que el método de pago se active.';
+$_['help_total']         = 'The checkout total the order must reach before this payment method becomes active.';
 
 // Error
-$_['error_permission']   = 'Error: Sin permiso para modificar Pago al Entregar.';
+$_['error_permission']   = 'Warning: You do not have permission to modify payment Cash On Delivery!';

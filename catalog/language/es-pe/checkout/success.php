@@ -1,10 +1,7 @@
 <?php
-// Heading
-$_['heading_title']        = 'Pedido Realizado.';
-
-// Text
-$_['text_basket']          = 'Carro de Compras';
-$_['text_checkout']        = 'Pagar';
-$_['text_success']         = 'Operación Exitosa';
-$_['text_customer']        = '<p>Pedido Procesado exitosamente.</p><p>Se puede ver el Historial de Pedidos en la <a href="%s">cuenta</a> y en el <a href="%s">Historial</a>.</p><p>Si la compra tiene asociadas descargas, ir a <a href="%s">descargas</a>.</p><p>Si existen dudas <a href="%s">contactar</a>.</p><p>Gracias por su Compra.</p>';
-$_['text_guest']           = '<p>Pedido Procesado exitosamente.</p><p>Si existen dudas <a href="%s">contactar</a>.</p><p>Gracias por realizar la Compra.</p>';
+$_['heading_title'] 	=  '¡Su orden ha sido puesta!';
+$_['text_basket'] 	=  'Carrito de compras';
+$_['text_checkout'] 	=  'Revisa';
+$_['text_success'] 	=  'Éxito';
+$_['text_customer'] 	=  '<p> ¡Su pedido se ha procesado correctamente! </p> <p> Puede ver su historial de pedidos visitando la página <a href="%s"> mi cuenta </a> y haciendo clic en <a href </p> <p> Si su compra tiene una descarga asociada, puede ir a la página <a href="%s"> descargas </a> de la cuenta para ver </p> <p> Por favor dirija cualquier pregunta que tenga al <a href="%s"> propietario de la tienda </a>. </p> <p> ¡Gracias por comprar con nosotros en línea! >';
+$_['text_guest'] 	=  '<p> ¡Su pedido se ha procesado correctamente! </p> <p> Por favor dirija cualquier pregunta que tenga al <a href="%s"> propietario de la tienda </a>. </p> <p> Gracias por ¡Compra con nosotros en línea! </p>';

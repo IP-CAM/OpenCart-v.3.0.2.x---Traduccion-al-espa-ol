@@ -1,24 +1,24 @@
 <?php
 // Heading
-$_['heading_title']    = 'Estados de Pedido';
+$_['heading_title']    = 'Order Statuses';
 
 // Text
-$_['text_success']     = 'Operación Exitosa: Estado de Pedido Modificado.';
-$_['text_list']        = 'Lista de Estados de Pedido';
-$_['text_add']         = 'Agregar Estado de Pedido';
-$_['text_edit']        = 'Editar Estado de Pedido';
+$_['text_success']     = 'Success: You have modified order statuses!';
+$_['text_list']        = 'Order Status List';
+$_['text_add']         = 'Add Order Status';
+$_['text_edit']        = 'Edit Order Status';
 
 // Column
-$_['column_name']      = 'Nombre del Estado';
-$_['column_action']    = 'Acción';
+$_['column_name']      = 'Order Status Name';
+$_['column_action']    = 'Action';
 
 // Entry
-$_['entry_name']       = 'Nombre del Estado';
+$_['entry_name']       = 'Order Status Name';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar Estados de Pedido.';
-$_['error_name']       = 'El Nombre del Estado debe contener entre 3 y 32 caracteres.';
-$_['error_default']    = 'Error: El Estado no puede eliminarse porque está asignado como Estado por Defecto.';
-$_['error_download']   = 'Error: El Estado no puede eliminarse porque está asignado como Estado por Defecto a las Descargas.';
-$_['error_store']      = 'Error: El Estado no puede eliminarse porque está asignado a %s Comercios.';
-$_['error_order']      = 'Error: El Estado no puede eliminarse porque está asignado a %s Pedidos.';
+$_['error_permission'] = 'Warning: You do not have permission to modify order statuses!';
+$_['error_name']       = 'Order Status Name must be between 3 and 32 characters!';
+$_['error_default']    = 'Warning: This order status cannot be deleted as it is currently assigned as the default store order status!';
+$_['error_download']   = 'Warning: This order status cannot be deleted as it is currently assigned as the default download status!';
+$_['error_store']      = 'Warning: This order status cannot be deleted as it is currently assigned to %s stores!';
+$_['error_order']      = 'Warning: This order status cannot be deleted as it is currently assigned to %s orders!';

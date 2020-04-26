@@ -1,22 +1,22 @@
 <?php
 // Heading
-$_['heading_title']    = 'Más Vendidos';
+$_['heading_title']    = 'Bestsellers';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_success']     = 'Operación Exitosa: Módulo Más Vendidos Modificado.';
-$_['text_edit']        = 'Editar Módulo Más Vendidos';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified bestsellers module!';
+$_['text_edit']        = 'Edit Bestsellers Module';
 
 // Entry
-$_['entry_name']       = 'Nombre  del Módulo';
-$_['entry_limit']      = 'Límite';
-$_['entry_image']      = 'Imagen (Ancho x Alto) y Tipo Redimensionable';
-$_['entry_width']      = 'Ancho';
-$_['entry_height']     = 'Alto';
-$_['entry_status']     = 'Estado';
+$_['entry_name']       = 'Module Name';
+$_['entry_limit']      = 'Limit';
+$_['entry_image']      = 'Image (W x H) and Resize Type';
+$_['entry_width']      = 'Width';
+$_['entry_height']     = 'Height';
+$_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Más Vendidos.';
-$_['error_name']       = 'El Nombre del Módulo debe contener entre 3 y 64 caracteres.';
-$_['error_width']      = 'Ancho Obligatorio.';
-$_['error_height']     = 'Alto Obligatorio.';
+$_['error_permission'] = 'Warning: You do not have permission to modify bestsellers module!';
+$_['error_name']       = 'Module Name must be between 3 and 64 characters!';
+$_['error_width']      = 'Width required!';
+$_['error_height']     = 'Height required!';

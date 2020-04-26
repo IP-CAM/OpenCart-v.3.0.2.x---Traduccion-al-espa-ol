@@ -1,16 +1,13 @@
 <?php
-// Text
-$_['text_success']           = 'Operación Exitosa: Pedidos Modificados.';
-
-// Error
-$_['error_permission']       = 'Error: Sin permiso para acceder a la API.';
-$_['error_customer']         = 'Error: Los detalles del Clientes necesitan ser establecidos.';
-$_['error_payment_address']  = 'Error: Dirección de Pago Obligatoria.';
-$_['error_payment_method']   = 'Error: Método de Pago Obligatorio.';
-$_['error_no_payment']       = 'Error: No hay Opciones de Pago disponibles.';
-$_['error_shipping_address'] = 'Error: Dirección de Envío Obligatoria.';
-$_['error_shipping_method']  = 'Error: Método de Envío Obligatorio.';
-$_['error_no_shipping']      = 'Error: No hay Opciones de Envío disponibles.';
-$_['error_stock']            = 'Error: Los Productos marcados con *** no están disponibles en la cantidad deseada o están Fuera de Stock.';
-$_['error_minimum']          = 'Error: El Pedido Mínimo para %s es de %s.';
-$_['error_not_found']        = 'Error: El Pedido no puede ser encontrado.';
+$_['text_success'] 	=  'Éxito: ¡Has modificado órdenes!';
+$_['error_permission'] 	=  'Advertencia: ¡No tiene permiso para acceder a la API!';
+$_['error_customer'] 	=  'Advertencia: ¡Los detalles del cliente deben ser ajustados!';
+$_['error_payment_address'] 	=  'Advertencia: Dirección de pago requerida!';
+$_['error_payment_method'] 	=  'Advertencia: ¡Se requiere el método de pago!';
+$_['error_no_payment'] 	=  'Advertencia: No hay opciones de pago disponibles!';
+$_['error_shipping_address'] 	=  'Advertencia: Se requiere la dirección de envío!';
+$_['error_shipping_method'] 	=  'Advertencia: Se requiere el método de envío!';
+$_['error_no_shipping'] 	=  'Advertencia: No Opciones de envío están disponibles!';
+$_['error_stock'] 	=  'Advertencia: ¡Los productos marcados con *** no están disponibles en la cantidad deseada o no están en stock!';
+$_['error_minimum'] 	=  'Advertencia: ¡La cantidad mínima de pedido para %s es %s!';
+$_['error_not_found'] 	=  'Advertencia: ¡No se pudo encontrar el pedido!';

@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title']     = 'Eventos';
+$_['heading_title']     = 'Events';
 
 // Text
-$_['text_success']      = 'Operación Exitosa: Evento Modificado.';
-$_['text_list']         = 'Lista de Eventos';
-$_['text_event']        = 'Los Eventos son utilizados para sobreescribir la funcionalidad por Defecto del Comercio. Si hay problemas se pueden deshabilitar los Eventos desde aquí.';
-$_['text_info']         = 'Información de Evento';
-$_['text_trigger']      = 'Disparador';
-$_['text_action']       = 'Acción';
+$_['text_success']      = 'Success: You have modified events!';
+$_['text_list']         = 'Event List';
+$_['text_event']        = 'Events are used by extensions to override the default functionality of your store. If you have issues you can disable or enable the events here.';
+$_['text_info']         = 'Event Information';
+$_['text_trigger']      = 'Trigger';
+$_['text_action']       = 'Action';
 
 // Column
-$_['column_code']       = 'Código de Evento';
-$_['column_status']     = 'Estado';
-$_['column_sort_order'] = 'Orden';
-$_['column_action']     = 'Acción';
+$_['column_code']       = 'Event Code';
+$_['column_status']     = 'Status';
+$_['column_sort_order'] = 'Sort Order';
+$_['column_action']     = 'Action';
 
 // Error
-$_['error_permission']  = 'Error: Sin permiso para modificar extensions.';
+$_['error_permission']  = 'Warning: You do not have permission to modify extensions!';

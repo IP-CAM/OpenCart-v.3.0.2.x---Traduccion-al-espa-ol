@@ -1,30 +1,19 @@
 <?php
-// Heading
-$_['heading_title']     = 'Grupo de Clientes';
-
-// Text
-$_['text_success']      = 'Operación Exitosa: Grupo de Clientes modificado.';
-$_['text_list']         = 'Lista de Grupo de Clientes';
-$_['text_add']          = 'Agregar Grupo de Clientes';
-$_['text_edit']         = 'Editar Grupo de Clientes';
-
-// Column
-$_['column_name']       = 'Nombre del Grupo de Clientes';
-$_['column_sort_order'] = 'Orden';
-$_['column_action']     = 'Acción';
-
-// Entry
-$_['entry_name']        = 'Nombre del Grupo de Clientes';
-$_['entry_description'] = 'Descripción';
-$_['entry_approval']    = 'Aprobar Nuevos Clientes';
-$_['entry_sort_order']  = 'Orden';
-
-// Help
-$_['help_approval']     = 'Los Clientes deben ser Aprobados por un Administrador para acceder al Sistema.';
-
-// Error
-$_['error_permission']  = 'Error: Sin permiso para modificar el Módulo Grupo de Clientes.';
-$_['error_name']        = 'El Nombre del Grupo de Clientes debe contener entre 3 y 32 caracteres.';
-$_['error_default']     = 'Error: El Grupo de Clientes no puede ser eliminado porque es el Grupo de Clientes por defecto.';
-$_['error_store']       = 'Error: El Grupo de Clientes no puede ser eliminado porque está asignado a %s Comercios.';
-$_['error_customer']    = 'Error: El Grupo de Clientes no puede ser eliminado porque está asignado a %s Clientes.';
+$_['heading_title'] 	=  'Grupos de Clientes';
+$_['text_success'] 	=  'Éxito: ¡Usted ha modificado los grupos de clientes!';
+$_['text_list'] 	=  'Lista de grupos de clientes';
+$_['text_add'] 	=  'Agregar grupo de clientes';
+$_['text_edit'] 	=  'Editar grupo de clientes';
+$_['column_name'] 	=  'Nombre del grupo de clientes';
+$_['column_sort_order'] 	=  'Orden de Clasificación';
+$_['column_action'] 	=  'Acción';
+$_['entry_name'] 	=  'Nombre del grupo de clientes';
+$_['entry_description'] 	=  'Descripción';
+$_['entry_approval'] 	=  'Aprobar Nuevos Clientes';
+$_['entry_sort_order'] 	=  'Orden de Clasificación';
+$_['help_approval'] 	=  'Los clientes deben ser aprobados por un administrador antes de que puedan iniciar sesión.';
+$_['error_permission'] 	=  'Advertencia: ¡No tiene permiso para modificar grupos de clientes!';
+$_['error_name'] 	=  '¡El nombre del grupo de clientes debe tener entre 3 y 32 caracteres!';
+$_['error_default'] 	=  'Advertencia: Este grupo de clientes no se puede eliminar ya que está asignado actualmente como el grupo de clientes de tienda predeterminado.';
+$_['error_store'] 	=  'Advertencia: ¡Este grupo de clientes no se puede eliminar ya que está asignado actualmente a %s stores!';
+$_['error_customer'] 	=  'Advertencia: ¡Este grupo de clientes no se puede eliminar ya que está asignado actualmente a %s clientes!';

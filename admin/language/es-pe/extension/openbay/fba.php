@@ -1,12 +1,12 @@
 <?php
 // Heading
-$_['heading_title']         	= 'El Cumplimiento por parte de Amazon';
+$_['heading_title']         	= 'Fulfillment by Amazon';
 $_['text_openbay']				= 'OpenBay Pro';
-$_['text_dashboard']			= 'Inicio de Cumplimiento de Amazon';
+$_['text_dashboard']			= 'Fulfillment by Amazon Dashboard';
 
 // Text
-$_['text_heading_settings'] 	= 'Configuración';
-$_['text_heading_account'] 		= 'Cuenta/Suscripción';
-$_['text_heading_fulfillments'] = 'Cumplimientos';
-$_['text_heading_register'] 	= 'Registrar aquí';
-$_['text_heading_orders'] 		= 'Pedidos';
+$_['text_heading_settings'] 	= 'Settings';
+$_['text_heading_account'] 		= 'Account/subscription';
+$_['text_heading_fulfillments'] = 'Fulfillments';
+$_['text_heading_register'] 	= 'Register here';
+$_['text_heading_orders'] 		= 'Orders';

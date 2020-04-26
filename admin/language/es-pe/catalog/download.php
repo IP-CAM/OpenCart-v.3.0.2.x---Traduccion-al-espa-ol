@@ -1,34 +1,23 @@
 <?php
-// Heading
-$_['heading_title']     = 'Descargas';
-
-// Text
-$_['text_success']      = 'Operación Exitosa: Descarga modificada.';
-$_['text_list']         = 'Lista de Descargas';
-$_['text_add']          = 'Agregar Descarga';
-$_['text_edit']         = 'Editar Descarga';
-$_['text_upload']       = 'Archivo subido exitosamente.';
-
-// Column
-$_['column_name']       = 'Nombre de la Descarga';
-$_['column_date_added'] = 'Fecha Alta';
-$_['column_action']     = 'Acción';
-
-// Entry
-$_['entry_name']        = 'Nombre de la Descarga';
-$_['entry_filename']    = 'Nombre del Archivo';
-$_['entry_mask']        = 'Máscara';
-
-// Help
-$_['help_filename']     = 'Subir via FTP o utilizar el botón para realizar la carga.';
-$_['help_mask']         = 'Es recomendable que el archivo y la máscara tengan distintos nombre por cuestiones de seguridad.';
-
-// Error
-$_['error_permission']  = 'Error: Sin pemiso para modificar el Módulo Descargas.';
-$_['error_name']        = 'El Nombre de la Descarga debe contener entre 3 y 64 caracteres.';
-$_['error_upload']      = 'Archivo Obligatorio.';
-$_['error_filename']    = 'El Nombre del Archivo debe contener entre 3 y 128 caracteres.';
-$_['error_exists']      = 'El Archivo no existe.';
-$_['error_mask']        = 'El Nombre de la Máscara debe contener entre 3 y 128 caracteres.';
-$_['error_filetype']    = 'Tipo de Archivo Inválido.';
-$_['error_product']     = 'Error: La descarga no puede ser eliminada porque está asignada a %s productos.';
+$_['heading_title'] 	=  'Descargas';
+$_['text_success'] 	=  'Éxito: ¡Has modificado las descargas!';
+$_['text_list'] 	=  'Lista de descargas';
+$_['text_add'] 	=  'Añadir Descargar';
+$_['text_edit'] 	=  'Editar Descargar';
+$_['text_upload'] 	=  '¡Tu archivo se ha cargado correctamente!';
+$_['column_name'] 	=  'Nombre de descarga';
+$_['column_date_added'] 	=  'Fecha Agregada';
+$_['column_action'] 	=  'Acción';
+$_['entry_name'] 	=  'Nombre de descarga';
+$_['entry_filename'] 	=  'Nombre del archivo';
+$_['entry_mask'] 	=  'Máscara';
+$_['help_filename'] 	=  'Puede cargarlo a través del botón de carga o utilizar FTP para subir al directorio de descarga e ingresar los detalles a continuación.';
+$_['help_mask'] 	=  'Se recomienda que el nombre de archivo y la máscara sean diferentes para evitar que las personas intenten enlazar directamente a sus descargas.';
+$_['error_permission'] 	=  'Advertencia: ¡No tienes permiso para modificar las descargas!';
+$_['error_name'] 	=  '¡El nombre de la descarga debe tener entre 3 y 64 caracteres!';
+$_['error_upload'] 	=  '¡Se requiere subir!';
+$_['error_filename'] 	=  '¡El nombre de archivo debe tener entre 3 y 128 caracteres!';
+$_['error_exists'] 	=  '¡El archivo no existe!';
+$_['error_mask'] 	=  '¡La máscara debe tener entre 3 y 128 caracteres!';
+$_['error_filetype'] 	=  '¡Tipo de archivo invalido!';
+$_['error_product'] 	=  'Advertencia: Esta descarga no se puede eliminar ya que está asignada actualmente a %s products!';

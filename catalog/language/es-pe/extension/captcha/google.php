@@ -3,7 +3,7 @@
 $_['text_captcha']  = 'Captcha';
 
 // Entry
-$_['entry_captcha'] = 'Ingresar los Datos de Verificación';
+$_['entry_captcha'] = 'Please complete the captcha validation below';
 
 // Error
-$_['error_captcha'] = 'Verificación Incorrecta.';
+$_['error_captcha'] = 'Verification is not correct!';

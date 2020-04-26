@@ -1,18 +1,18 @@
 <?php
 // Heading
-$_['heading_title']    = 'Envío Por Item';
+$_['heading_title']    = 'Per Item';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_success']     = 'Operación Exitosa: Envío Por Item Modificado.';
-$_['text_edit']        = 'Editar Envío Por Item';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified shipping per item rates!';
+$_['text_edit']        = 'Edit Per Item Shipping';
 
 // Entry
-$_['entry_cost']       = 'Costo';
-$_['entry_tax_class']  = 'Clase de Impuesto';
-$_['entry_geo_zone']   = 'Zona Geográfica';
-$_['entry_status']     = 'Estado';
-$_['entry_sort_order'] = 'Orden';
+$_['entry_cost']       = 'Cost';
+$_['entry_tax_class']  = 'Tax Class';
+$_['entry_geo_zone']   = 'Geo Zone';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar Envíos Por Item.';
+$_['error_permission'] = 'Warning: You do not have permission to modify shipping per item rates!';

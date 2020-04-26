@@ -1,38 +1,38 @@
 <?php
 // Heading
-$_['heading_title']        = 'Monedas';
+$_['heading_title']        = 'Currencies';
 
 // Text
-$_['text_success']         = 'Operación Exitosa: Moneda Modificada.';
-$_['text_list']            = 'Listado de Monedas';
-$_['text_add']             = 'Agregar Moneda';
-$_['text_edit']            = 'Editar Moneda';
-$_['text_iso']             = 'Se pueden encontrar el listado completo de Monedas y sus Configuraciones <a href="http://www.xe.com/iso4217.php" target="_blank" class="alert-link">aquí</a>.';
+$_['text_success']         = 'Success: You have modified currencies!';
+$_['text_list']            = 'Currency List';
+$_['text_add']             = 'Add Currency';
+$_['text_edit']            = 'Edit Currency';
+$_['text_iso']             = 'You can find a full list of ISO currency codes and settings <a href="http://www.xe.com/iso4217.php" target="_blank" class="alert-link">here</a>.';
 
 // Column
-$_['column_title']         = 'Título de la Moneda';
-$_['column_code']          = 'Código';
-$_['column_value']         = 'Valor';
-$_['column_date_modified'] = 'Ultima Actualización';
-$_['column_action']        = 'Acción';
+$_['column_title']         = 'Currency Title';
+$_['column_code']          = 'Code';
+$_['column_value']         = 'Value';
+$_['column_date_modified'] = 'Last Updated';
+$_['column_action']        = 'Action';
 
 // Entry
-$_['entry_title']          = 'Título de la Moneda';
-$_['entry_code']           = 'Código';
-$_['entry_value']          = 'Valor';
-$_['entry_symbol_left']    = 'Símbolo a la Izquierda';
-$_['entry_symbol_right']   = 'Símbolo a la Derecha';
-$_['entry_decimal_place']  = 'Lugares Decimales';
-$_['entry_status']         = 'Estado';
+$_['entry_title']          = 'Currency Title';
+$_['entry_code']           = 'Code';
+$_['entry_value']          = 'Value';
+$_['entry_symbol_left']    = 'Symbol Left';
+$_['entry_symbol_right']   = 'Symbol Right';
+$_['entry_decimal_place']  = 'Decimal Places';
+$_['entry_status']         = 'Status';
 
 // Help
-$_['help_code']            = 'No cambiar si es la Moneda por Defecto.';
-$_['help_value']           = 'Setear a 1.00 si es la Moneda por Defecto.';
+$_['help_code']            = 'Do not change if this is your default currency.';
+$_['help_value']           = 'Set to 1.00000 if this is your default currency.';
 
 // Error
-$_['error_permission']     = 'Error: Sin permiso para modificar Monedas.';
-$_['error_title']          = 'El Título de la Moneda debe contener entre 3 y 32 caracteres.';
-$_['error_code']           = 'El Código de la Moneda debe contener 3 caracteres.';
-$_['error_default']        = 'Error: La Moneda no puede ser eliminada porque está asignada como Moneda por Defecto.';
-$_['error_store']          = 'Error: La Moneda no puede ser eliminada porque está asignada a %s Comercios.';
-$_['error_order']          = 'Error: La Moneda no puede ser eliminada porque está asignada a %s Pedidos.';
+$_['error_permission']     = 'Warning: You do not have permission to modify currencies!';
+$_['error_title']          = 'Currency Title must be between 3 and 32 characters!';
+$_['error_code']           = 'Currency Code must contain 3 characters!';
+$_['error_default']        = 'Warning: This currency cannot be deleted as it is currently assigned as the default store currency!';
+$_['error_store']          = 'Warning: This currency cannot be deleted as it is currently assigned to %s stores!';
+$_['error_order']          = 'Warning: This currency cannot be deleted as it is currently assigned to %s orders!';

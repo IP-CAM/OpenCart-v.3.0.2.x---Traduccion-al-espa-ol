@@ -1,13 +1,13 @@
 <?php
 // Text
 $_['text_title']                = 'Square';
-$_['text_canceled']             = 'Operación Exitosa: Se ha cancelado exitosamente este Pago. Se enviará un Email de Confirmación.';
-$_['text_confirm_cancel']       = 'Seguro de Cancelar Pagos Recurrentes?';
-$_['text_order_history_cancel'] = 'Se ha cancelado el Perfil Recurrente. La Tarjeta no será cargada.';
+$_['text_canceled']             = 'Success: You have succesfully canceled this payment! We sent you a confirmation e-mail.';
+$_['text_confirm_cancel']       = 'Are you sure you want to cancel the recurring payments?';
+$_['text_order_history_cancel'] = 'You canceled your recurring profile. Your card will no longer be charged.';
 
 // Button
-$_['button_cancel']             = 'Cancelar Pago Recurrente';
+$_['button_cancel']             = 'Cancel Recurring Payment';
 
 // Error
 $_['error_not_cancelled']       = 'Error: %s';
-$_['error_not_found']           = 'No se puede Cancelar el Perfil Recurrente.';
+$_['error_not_found']           = 'Could not cancel recurring profile';

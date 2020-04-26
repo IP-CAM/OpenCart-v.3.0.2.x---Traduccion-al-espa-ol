@@ -1,47 +1,36 @@
 <?php
-// Heading
-$_['heading_title']     = 'Vouchers de Regalo';
-
-// Text
-$_['text_success']      = 'Operación Exitosa: Vouchers Modificados.';
-$_['text_list']         = 'Lista de Vouchers';
-$_['text_add']          = 'Agregar Voucher';
-$_['text_edit']         = 'Editar Voucher';
-$_['text_sent']         = 'Operación Exitosa: Email de Vocuher enviado.';
-
-// Column
-$_['column_name']       = 'Nombre del Voucher';
-$_['column_code']       = 'Código';
-$_['column_from']       = 'De';
-$_['column_to']         = 'Para';
-$_['column_theme']      = 'Diseño';
-$_['column_amount']     = 'Monto';
-$_['column_status']     = 'Estado';
-$_['column_order_id']   = 'Pedido ID';
-$_['column_customer']   = 'Cliente';
-$_['column_date_added'] = 'Fecha Alta';
-$_['column_action']     = 'Acción';
-
-// Entry
-$_['entry_code']        = 'Código';
-$_['entry_from_name']   = 'Nombre de';
-$_['entry_from_email']  = 'Email de';
-$_['entry_to_name']     = 'Nombre para';
-$_['entry_to_email']    = 'Email para';
-$_['entry_theme']       = 'Diseño';
-$_['entry_message']     = 'Mensaje';
-$_['entry_amount']      = 'Monto';
-$_['entry_status']      = 'Estado';
-
-// Help
-$_['help_code']         = 'El Código que el cliente ingresa para activar el Voucher.';
-
-// Error
-$_['error_permission']  = 'Error: Sin permiso para modificar Vouchers.';
-$_['error_exists']      = 'Error: El Código del Voucher ya ha sido utilizado.';
-$_['error_code']        = 'El Código debe contener entre 3 y 10 caracteres.';
-$_['error_to_name']     = 'El Nombre del Destinatario debe contener entre 1 y 64 caracteres.';
-$_['error_from_name']   = 'El Nombre debe contener entre 1 y 64 caracteres.';
-$_['error_email']       = 'Email Inválido.';
-$_['error_amount']      = 'El Monto debe ser mayor o igual a 1.';
-$_['error_order']       = 'Error: El Voucher no puede ser eliminado porque es parte de un <a href="%s">pedido</a>.';
+$_['heading_title'] 	=  'Vales de regalo';
+$_['text_success'] 	=  'Éxito: ¡Has modificado vales!';
+$_['text_list'] 	=  'Lista de vales de regalo';
+$_['text_add'] 	=  'Añadir vale de regalo';
+$_['text_edit'] 	=  'Editar vale regalo';
+$_['text_sent'] 	=  'Éxito: ¡El vale de regalo ha sido enviado!';
+$_['column_name'] 	=  'Nombre del cupón';
+$_['column_code'] 	=  'Código';
+$_['column_from'] 	=  'De';
+$_['column_to'] 	=  'A';
+$_['column_theme'] 	=  'Tema';
+$_['column_amount'] 	=  'Cantidad';
+$_['column_status'] 	=  'Estado';
+$_['column_order_id'] 	=  'Pedido#';
+$_['column_customer'] 	=  'Cliente';
+$_['column_date_added'] 	=  'Fecha Agregada';
+$_['column_action'] 	=  'Acción';
+$_['entry_code'] 	=  'Código';
+$_['entry_from_name'] 	=  'De nombre';
+$_['entry_from_email'] 	=  'Desde el e-mail';
+$_['entry_to_name'] 	=  'Nombrar';
+$_['entry_to_email'] 	=  'Al correo electrónico';
+$_['entry_theme'] 	=  'Tema';
+$_['entry_message'] 	=  'Mensaje';
+$_['entry_amount'] 	=  'Cantidad';
+$_['entry_status'] 	=  'Estado';
+$_['help_code'] 	=  'El código que el cliente ingresa para activar el comprobante.';
+$_['error_permission'] 	=  'Advertencia: ¡No tienes permiso para modificar vales!';
+$_['error_exists'] 	=  'Advertencia: ¡El código de cupón ya está en uso!';
+$_['error_code'] 	=  '¡El código debe tener entre 3 y 10 caracteres!';
+$_['error_to_name'] 	=  '¡El nombre del destinatario debe tener entre 1 y 64 caracteres!';
+$_['error_from_name'] 	=  'Su nombre debe tener entre 1 y 64 caracteres.';
+$_['error_email'] 	=  '¡La dirección de correo electrónico no parece válida!';
+$_['error_amount'] 	=  '¡La cantidad debe ser mayor o igual a 1!';
+$_['error_order'] 	=  'Advertencia: este cupón no puede eliminarse ya que forma parte de una <a href=\"%s\"> orden </a>!';

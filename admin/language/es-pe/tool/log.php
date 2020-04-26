@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title']    = 'Registro de Error';
+$_['heading_title']    = 'Error Log';
 
 // Text
-$_['text_success']     = 'Operación Exitosa: Registro de Error Modificado.';
-$_['text_list']        = 'Listado de Errores';
+$_['text_success']     = 'Success: You have successfully cleared your error log!';
+$_['text_list']        = 'Errors List';
 
 // Error
-$_['error_warning']    = 'Error: El Archivo de Registro de Erroers %s es %s.';
-$_['error_permission'] = 'Error: Sin permiso para limpiar el Registro de Errores.';
+$_['error_warning']    = 'Warning: Your error log file %s is %s!';
+$_['error_permission'] = 'Warning: You do not have permission to clear error log!';

@@ -1,18 +1,18 @@
 <?php
 // Heading
-$_['heading_title']    = 'Envío con Tarifa Plana';
+$_['heading_title']    = 'Tarifas Planas';
 
 // Text
-$_['text_extension']   = 'Extensioness';
-$_['text_success']     = 'Operación Exitosa: Envío con Tarifa Plana Modificada.';
-$_['text_edit']        = 'Editar Envíos con Tarifa Plana.';
+$_['text_extension']   = 'Extenciones';
+$_['text_success']     = 'Satisfactorio: Haz modificado el registro!';
+$_['text_edit']        = 'Modificar envio de tarifa plana';
 
 // Entry
 $_['entry_cost']       = 'Costo';
-$_['entry_tax_class']  = 'Clase de Impuesto';
-$_['entry_geo_zone']   = 'Zona Geográfica';
+$_['entry_tax_class']  = 'Tipo de Impuesto';
+$_['entry_geo_zone']   = 'Geo Zone';
 $_['entry_status']     = 'Estado';
-$_['entry_sort_order'] = 'Orden';
+$_['entry_sort_order'] = 'Ordernar';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar Envíos con Tarifa Plana.';
+$_['error_permission'] = 'Warning: You do not have permission to modify flat rate shipping!';

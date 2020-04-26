@@ -1,24 +1,15 @@
 <?php
-// Heading
-$_['heading_title']     = 'Diseño de Vouchers';
-
-// Text
-$_['text_success']      = 'Operación Exitosa: Diseño de Vouchers Modificado.';
-$_['text_list']         = 'Listado de Diseño de Vouchers';
-$_['text_add']          = 'Agregar Diseño de Voucher';
-$_['text_edit']         = 'Editar Diseño de Voucher';
-
-// Column
-$_['column_name']       = 'Nombre del Diseño de Voucher';
-$_['column_action']     = 'Acción';
-
-// Entry
-$_['entry_name']        = 'Nombre del Diseño de Voucher';
-$_['entry_description'] = 'Descripción del Diseño de Voucher';
-$_['entry_image']       = 'Imagen';
-
-// Error
-$_['error_permission']  = 'Error: Sin permiso para modificar los Diseños de Vouchers.';
-$_['error_name']        = 'El Nombre del Diseño del Voucher 3 y 32 caracteres.';
-$_['error_image']       = 'Imagen Obligatoria.';
-$_['error_voucher']     = 'Error: El Diseño de Voucher no puede ser eliminado porque actualmente está asignado a %s Vouchers.';
+$_['heading_title'] 	=  'Temas de vales';
+$_['text_success'] 	=  'Éxito: ¡Has modificado los temas de cupones!';
+$_['text_list'] 	=  'Lista de temas de vales';
+$_['text_add'] 	=  'Add Voucher Theme';
+$_['text_edit'] 	=  'Tema Editar Bonos';
+$_['column_name'] 	=  'Nombre del Tema del Vale';
+$_['column_action'] 	=  'Acción';
+$_['entry_name'] 	=  'Nombre del Tema del Vale';
+$_['entry_description'] 	=  'Tema del vale Descripción';
+$_['entry_image'] 	=  'Imagen';
+$_['error_permission'] 	=  'Advertencia: ¡No tienes permiso para modificar temas de cupones!';
+$_['error_name'] 	=  'Voucher Theme El nombre debe tener entre 3 y 32 caracteres.';
+$_['error_image'] 	=  'Imagen necesaria!';
+$_['error_voucher'] 	=  'Advertencia: este tema de cupones no se puede eliminar ya que está asignado a %s vouchers!';

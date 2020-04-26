@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Comercio';
+$_['heading_title']    = 'Store';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_success']     = 'Operación Exitosa: Módulo Comercio Modificado.';
-$_['text_edit']        = 'Editar Módulo Comercio';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified store module!';
+$_['text_edit']        = 'Edit Store Module';
 
 // Entry
-$_['entry_admin']      = 'Sólo Usuarios Administradores';
-$_['entry_status']     = 'Estado';
+$_['entry_admin']      = 'Admin Users Only';
+$_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Comercio.';
+$_['error_permission'] = 'Warning: You do not have permission to modify store module!';

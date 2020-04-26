@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']     = 'Otras Extensiones';
+$_['heading_title']     = 'Other';
 
 // Text
-$_['text_success']      = 'Operación Exitosa: Otras Extensiones Modificadas.';
-$_['text_list']         = 'Lista de Otras Extensiones';
+$_['text_success']      = 'Success: You have modified other extension!';
+$_['text_list']         = 'Other List';
 
 // Column
-$_['column_name']       = 'Extensión';
-$_['column_status']     = 'Estado';
-$_['column_action']     = 'Acción';
+$_['column_name']       = 'Other';
+$_['column_status']     = 'Status';
+$_['column_action']     = 'Action';
 
 // Error
-$_['error_permission']  = 'Error: Sin permiso para modificar el Módulo Otras Extensiones.';
+$_['error_permission']  = 'Warning: You do not have permission to modify other extension!';

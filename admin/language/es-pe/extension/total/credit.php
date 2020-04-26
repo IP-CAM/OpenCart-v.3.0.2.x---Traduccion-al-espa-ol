@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Créditos del Comercio';
+$_['heading_title']    = 'Store Credit';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_success']     = 'Operación Exitosa: Total de Créditos del Comercio Modificado.';
-$_['text_edit']        = 'Editar Total de Créditos del Comercio';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified store credit total!';
+$_['text_edit']        = 'Edit Store Credit Total';
 
 // Entry
-$_['entry_status']     = 'Estado';
-$_['entry_sort_order'] = 'Orden';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar el Total de Créditos del Comercio.';
+$_['error_permission'] = 'Warning: You do not have permission to modify store credit total!';

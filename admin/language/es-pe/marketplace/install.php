@@ -1,18 +1,18 @@
 <?php
 // Text
-$_['text_success']     = 'Operación Exitosa: Extensión Modificada.';
-$_['text_unzip']       = 'Extrayendo Archivos.';
-$_['text_move']        = 'Copiando Archivos.';
-$_['text_xml']         = 'Aplicando modificaciones.';
-$_['text_remove']      = 'Removiendo Archivos Temporarios.';
+$_['text_success']     = 'Success: You have modified extensions!';
+$_['text_unzip']       = 'Extracting files!';
+$_['text_move']        = 'Copying files!';
+$_['text_xml']         = 'Applying modifications!';
+$_['text_remove']      = 'Removing temporary files!';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar Extensiones.';
-$_['error_install']    = 'La instalación de la extensión va a tomar algún tiempo.';
-$_['error_unzip']      = 'El Archivo ZIP no puede ser abierto.';
-$_['error_file']       = 'El Instalador de Archivos no puede ser encontrado.';
-$_['error_directory']  = 'El Directorio de Instalación no puede ser encontrado.';
-$_['error_code']       = 'El Código Unico es Obligatorio para la modificación XML.';
-$_['error_xml']        = 'La Modificación %s ya está siendo utilizada.';
-$_['error_exists']     = 'El Archivo %s ya existe.';
-$_['error_allowed']    = 'El Directorio %s no tiene permiso de escritura.';
+$_['error_permission'] = 'Warning: You do not have permission to modify extensions!';
+$_['error_install']    = 'Extension installation taking place please wait a few seconds before trying to install!';
+$_['error_unzip']      = 'Zip file could not be opened!';
+$_['error_file']       = 'Install file could not be found!';
+$_['error_directory']  = 'Install directory could not be found!';
+$_['error_code']       = 'Unique code is required for modification XML!';
+$_['error_xml']        = 'Modification %s is already being used!';
+$_['error_exists']     = 'The file %s already exists!';
+$_['error_allowed']    = 'The directory %s is not allowed to be written to!';

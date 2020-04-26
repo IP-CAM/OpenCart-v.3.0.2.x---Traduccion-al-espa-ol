@@ -1,57 +1,57 @@
 <?php
 // Text
-$_['text_new_card']                     = '+ Agregar Nueva Tarjeta';
-$_['text_loading']                      = 'Cargando... Esperar...';
-$_['text_card_details']                 = 'Detalles de la Tarjeta';
-$_['text_saved_card']                   = 'Usar Tarjeta Guardada:';
-$_['text_card_ends_in']                 = 'Pagar con la Tarjeta Existente %s que termina en XXXX XXXX XXXX %s';
-$_['text_card_number']                  = 'Número de Tarjeta:';
-$_['text_card_expiry']                  = 'Expiración de la Tarjeta (MM/YY):';
-$_['text_card_cvc']                     = 'Código de Seguridad de la Tarjeta (CVC):';
-$_['text_card_zip']                     = 'Código Postal de la Tarjeta:';
-$_['text_card_save']                    = 'Guardar la Tarjeta para Usos Futuros?';
-$_['text_trial']                        = '%s cada %s %s para %s pagos luego ';
-$_['text_recurring']                    = '%s cada %s %s';
-$_['text_length']                       = ' cada %s pagos';
-$_['text_cron_subject']                 = 'Resumen del Trabajo Square CRON';
-$_['text_cron_message']                 = 'Aquí hay una lista de todas las tareas CRON realizadas por la extensión Square:';
-$_['text_squareup_profile_suspended']   = ' Los Pagos Recurrentes han sido Suspendidos. Contactar para obtener mayor información.';
-$_['text_squareup_trial_expired']       = ' El Periodo de Prueba ha Expirado.';
-$_['text_squareup_recurring_expired']   = ' Los Pagos Recurrentes han Expirado. Este es el último Pago.';
-$_['text_cron_summary_token_heading']   = 'Actualizar el Token de Acceso:';
-$_['text_cron_summary_token_updated']   = 'Token de Acceso Actualizado Exitosamente.';
-$_['text_cron_summary_error_heading']   = 'Errores de la Transacción:';
-$_['text_cron_summary_fail_heading']    = 'Transacciones Fallidas (Perfiles Suspendidos):';
-$_['text_cron_summary_success_heading'] = 'Transacciones Exitosas:';
-$_['text_cron_fail_charge']             = 'Perfil <strong>#%s</strong> no pudo ser cargado con <strong>%s</strong>';
-$_['text_cron_success_charge']          = 'Perfil <strong>#%s</strong> fue cargado con <strong>%s</strong>';
+$_['text_new_card']                     = '+ Add new card';
+$_['text_loading']                      = 'Loading... Please wait...';
+$_['text_card_details']                 = 'Card Details';
+$_['text_saved_card']                   = 'Use Saved Card:';
+$_['text_card_ends_in']                 = 'Pay with existing %s card that ends on XXXX XXXX XXXX %s';
+$_['text_card_number']                  = 'Card Number:';
+$_['text_card_expiry']                  = 'Card Expiry (MM/YY):';
+$_['text_card_cvc']                     = 'Card Security Code (CVC):';
+$_['text_card_zip']                     = 'Card Zip Code:';
+$_['text_card_save']                    = 'Save card for future use?';
+$_['text_trial']                        = '%s every %s %s for %s payments then ';
+$_['text_recurring']                    = '%s every %s %s';
+$_['text_length']                       = ' for %s payments';
+$_['text_cron_subject']                 = 'Square CRON job summary';
+$_['text_cron_message']                 = 'Here is a list of all CRON tasks performed by your Square extension:';
+$_['text_squareup_profile_suspended']   = ' Your recurring payments have been suspended. Please contact us for more details.';
+$_['text_squareup_trial_expired']       = ' Your trial period has expired.';
+$_['text_squareup_recurring_expired']   = ' Your recurring payments have expired. This was your last payment.';
+$_['text_cron_summary_token_heading']   = 'Refresh of access token:';
+$_['text_cron_summary_token_updated']   = 'Access token updated successfully!';
+$_['text_cron_summary_error_heading']   = 'Transaction Errors:';
+$_['text_cron_summary_fail_heading']    = 'Failed Transactions (Profiles Suspended):';
+$_['text_cron_summary_success_heading'] = 'Successful Transactions:';
+$_['text_cron_fail_charge']             = 'Profile <strong>#%s</strong> could not get charged with <strong>%s</strong>';
+$_['text_cron_success_charge']          = 'Profile <strong>#%s</strong> was charged with <strong>%s</strong>';
 $_['text_card_placeholder']             = 'XXXX XXXX XXXX XXXX';
 $_['text_cvv']                          = 'CVV';
 $_['text_expiry']                       = 'MM/YY';
-$_['text_default_squareup_name']        = 'Tarjeta de Crédito/Débito';
-$_['text_token_issue_customer_error']   = 'se está experimentando una Interrupción Técnica en el sistema de pago. Intentar Nuevamente.';
-$_['text_token_revoked_subject']        = 'El Token de Acceso Square ha sido revocado.';
-$_['text_token_revoked_message']        = "El acceso de la extensión de pago de Square a la cuenta ha sido revocado a través del Panel. Se deben verificar las credenciales de la aplicación en la configuración de la extensión y conectarse nuevamente.";
-$_['text_token_expired_subject']        = 'El Token de Acceso Square ha expirado';
-$_['text_token_expired_message']        = "El token de acceso de la extensión de pago de Square que conecta a la cuenta de Square ha expirado. Se deben verificar las credenciales de la aplicación y el trabajo CRON en la configuración de la extensión y conectarse nuevamente.";
+$_['text_default_squareup_name']        = 'Credit / Debit Card';
+$_['text_token_issue_customer_error']   = 'We are experiencing a technical outage in our payment system. Please try again later.';
+$_['text_token_revoked_subject']        = 'Your Square access token has been revoked!';
+$_['text_token_revoked_message']        = "The Square payment extension's access to your Square account has been revoked through the Square Dashboard. You need to verify your application credentials in the extension settings and connect again.";
+$_['text_token_expired_subject']        = 'Your Square access token has expired!';
+$_['text_token_expired_message']        = "The Square payment extension's access token connecting it to your Square account has expired. You need to verify your application credentials and CRON job in the extension settings and connect again.";
 
 // Error
-$_['error_browser_not_supported']       = 'Error: El Sistema de Pago no es Compatible con el Navegador Web. Actualizarlo o intentar con uno diferente.';
-$_['error_card_invalid']                = 'Error: Tarjeta Inválida.';
-$_['error_squareup_cron_token']         = 'Error: El Token de Acceso no pudo ser Refrescado. Conectarse con la Extensión Square desde el Panel de Administrador del Ssitema.';
+$_['error_browser_not_supported']       = 'Error: The payment system no longer supports your web browser. Please update or use a different one.';
+$_['error_card_invalid']                = 'Error: Card is invalid!';
+$_['error_squareup_cron_token']         = 'Error: Access token could not get refreshed. Please connect your Square Payment extension via the OpenCart admin panel.';
 
-// Error
-$_['warning_test_mode']                 = 'Error: Modo Sandbox Habilitado. Las transacciones parecerán realizarse, pero no se realizarán cargos.';
+// Warning
+$_['warning_test_mode']                 = 'Warning: Sandbox mode is enabled! Transactions will appear to go through, but no charges will be carried out.';
 
 // Statuses
-$_['squareup_status_comment_authorized']    = 'La transacción con tarjeta ha sido autorizada pero aún no ha sido capturada.';
-$_['squareup_status_comment_captured']      = 'La transacción con tarjeta fue autorizada y posteriormente capturada (ej., completada).';
-$_['squareup_status_comment_voided']        = 'La transacción con tarjeta fue autorizada y posteriormente anulada (ij., cancelada).   ';
-$_['squareup_status_comment_failed']        = 'Transacción con Tarjeta Fallida.';
+$_['squareup_status_comment_authorized']    = 'The card transaction has been authorized but not yet captured.';
+$_['squareup_status_comment_captured']      = 'The card transaction was authorized and subsequently captured (i.e., completed).';
+$_['squareup_status_comment_voided']        = 'The card transaction was authorized and subsequently voided (i.e., canceled).   ';
+$_['squareup_status_comment_failed']        = 'The card transaction failed.';
 
 // Override errors
-$_['squareup_override_error_billing_address.country']       = 'Dirección del País de Pago Inválida. Modificar e Intentar nuevamente.';
-$_['squareup_override_error_shipping_address.country']      = 'Dirección del País de Envío Inválida. Modificar e Intentar nuevamente.';
-$_['squareup_override_error_email_address']                 = 'Email de Cliente Inválido. Modificar e Intentar nuevamente.';
-$_['squareup_override_error_phone_number']                  = 'Número de Teléfono Inválido. Modificar e Intentar nuevamente.';
-$_['squareup_error_field']                                  = ' Campo: %s';
+$_['squareup_override_error_billing_address.country']       = 'Payment Address country is not valid. Please modify it and try again.';
+$_['squareup_override_error_shipping_address.country']      = 'Shipping Address country is not valid. Please modify it and try again.';
+$_['squareup_override_error_email_address']                 = 'Your customer e-mail address is not valid. Please modify it and try again.';
+$_['squareup_override_error_phone_number']                  = 'Your customer phone number is not valid. Please modify it and try again.';
+$_['squareup_error_field']                                  = ' Field: %s';

@@ -1,3 +1,3 @@
 <?php
 // Heading
-$_['heading_title'] = 'Refinar Búsqueda';
+$_['heading_title'] = 'Refine Search';

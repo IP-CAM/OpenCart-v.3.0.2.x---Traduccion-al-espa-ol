@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Acciones de Devolución';
+$_['heading_title']    = 'Return Actions';
 
 // Text
-$_['text_success']     = 'Operación Exitosa: Acciones de Devolución.';
-$_['text_list']        = 'Lista de Acciones de Devolución';
-$_['text_add']         = 'Agregar Acción de Devolución';
-$_['text_edit']        = 'Editar Acción de Devolución';
+$_['text_success']     = 'Success: You have modified return actions!';
+$_['text_list']        = 'Return Action List';
+$_['text_add']         = 'Add Return Action';
+$_['text_edit']        = 'Edit Return Action';
 
 // Column
-$_['column_name']      = 'Nombre de la Acción';
-$_['column_action']    = 'Acción';
+$_['column_name']      = 'Return Action Name';
+$_['column_action']    = 'Action';
 
 // Entry
-$_['entry_name']       = 'Nombre de la Acción';
+$_['entry_name']       = 'Return Action Name';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar Acciones de Devolución.';
-$_['error_name']       = 'El Nombre de la Acción debe contener entre 3 y 64 caracteres.';
-$_['error_return']     = 'Error: La Acción no puede ser eliminada porque está asignada a %s Productos.';
+$_['error_permission'] = 'Warning: You do not have permission to modify return actions!';
+$_['error_name']       = 'Return Action Name must be between 3 and 64 characters!';
+$_['error_return']     = 'Warning: This return action cannot be deleted as it is currently assigned to %s returned products!';

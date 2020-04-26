@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Ultimos Productos';
+$_['heading_title']    = 'Latest';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_success']     = 'Operación Exitosa: Módulo Ultimos Productos Modificado.';
-$_['text_edit']        = 'Editar Ultimos Productos';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified latest module!';
+$_['text_edit']        = 'Edit Latest Module';
 
 // Entry
-$_['entry_name']       = 'Nombre del Módulo';
-$_['entry_limit']      = 'Límite';
-$_['entry_width']      = 'Ancho';
-$_['entry_height']     = 'Alto';
-$_['entry_status']     = 'Estado';
+$_['entry_name']       = 'Module Name';
+$_['entry_limit']      = 'Limit';
+$_['entry_width']      = 'Width';
+$_['entry_height']     = 'Height';
+$_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Ultimos Productos.';
-$_['error_name']       = 'El Nombre del Módulo debe contener entre 3 y 64 caracteres.';
-$_['error_width']      = 'Ancho Obligatorio.';
-$_['error_height']     = 'Alto Obligatorio.';
+$_['error_permission'] = 'Warning: You do not have permission to modify latest module!';
+$_['error_name']       = 'Module Name must be between 3 and 64 characters!';
+$_['error_width']      = 'Width required!';
+$_['error_height']     = 'Height required!';

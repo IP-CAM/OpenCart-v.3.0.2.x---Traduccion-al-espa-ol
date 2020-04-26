@@ -1,14 +1,14 @@
 <?php
 // Heading
-$_['heading_title']    = 'Calculadora de Página de Producto Divido';
+$_['heading_title']    = 'Divido Product Page Calculator';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_success']     = 'Operación Exitosa: Módulo Calculadora de Página de Producto Divido Modificado.';
-$_['text_edit']        = 'Editar Calculadora de Página de Producto Divido';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified Divido Product Page Calculator!';
+$_['text_edit']        = 'Edit Divido Product Page Calculator';
 
 // Entry
-$_['entry_status']     = 'Estado';
+$_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Calculadora de Página de Producto Divido.';
+$_['error_permission'] = 'Warning: You do not have permission to modify module Divido Product Page Calculator!';

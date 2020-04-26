@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Tasa de Tramitación';
+$_['heading_title']    = 'Handling Fee';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_success']     = 'Operación Exitosa: Total de Tasa de Tramitación Modificado.';
-$_['text_edit']        = 'Editar Total de Tasa de Tramitación';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified handling fee total!';
+$_['text_edit']        = 'Edit Handling Fee Total';
 
 // Entry
-$_['entry_total']      = 'Total de Pedido';
-$_['entry_fee']        = 'Cuota';
-$_['entry_tax_class']  = 'Clase de Impuesto';
-$_['entry_status']     = 'Estado';
-$_['entry_sort_order'] = 'Orden';
+$_['entry_total']      = 'Order Total';
+$_['entry_fee']        = 'Fee';
+$_['entry_tax_class']  = 'Tax Class';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
 
 // Help
-$_['help_total']       = 'Total del Pedido que debe alcanzarse antes de que la Opción se active.';
+$_['help_total']       = 'The checkout total the order must reach before this order total becomes active.';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar el Total de Tasa de Tramitación.';
+$_['error_permission'] = 'Warning: You do not have permission to modify handling fee total!';

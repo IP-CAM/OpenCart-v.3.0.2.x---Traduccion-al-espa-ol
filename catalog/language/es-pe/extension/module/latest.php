@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Ultimos Productos';
+$_['heading_title'] = 'Latest';
 
 // Text
-$_['text_tax']      = 'Impuestos:';
+$_['text_tax']      = 'Ex Tax:';

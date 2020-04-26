@@ -1,19 +1,19 @@
 <?php
 // Heading
-$_['heading_title']     = 'Modificaciones';
+$_['heading_title']     = 'Modifications';
 
 // Text
-$_['text_success']      = 'Operación Exitosa: Modificación Modificada.';
-$_['text_refresh']      = 'Siempre que se habilite/deshabilite o elimine una modificación, se debe hacer clic en el botón Actualizar para reconstruir la caché de Modificación.';
-$_['text_list']         = 'Lista de Modificaciones';
+$_['text_success']      = 'Success: You have modified modifications!';
+$_['text_refresh']      = 'Whenever you enable / disable or delete a modification you need to click the refresh button to rebuild your modification cache!';
+$_['text_list']         = 'Modification List';
 
 // Column
-$_['column_name']       = 'Nombre de la Modificación';
-$_['column_author']     = 'Autor';
-$_['column_version']    = 'Versión';
-$_['column_status']     = 'Estado';
-$_['column_date_added'] = 'Fecha Alta';
-$_['column_action']     = 'Acción';
+$_['column_name']       = 'Modification Name';
+$_['column_author']     = 'Author';
+$_['column_version']    = 'Version';
+$_['column_status']     = 'Status';
+$_['column_date_added'] = 'Date Added';
+$_['column_action']     = 'Action';
 
 // Error
-$_['error_permission']  = 'Error: Sin permiso para modificar Modificaciones.';
+$_['error_permission']  = 'Warning: You do not have permission to modify modifications!';

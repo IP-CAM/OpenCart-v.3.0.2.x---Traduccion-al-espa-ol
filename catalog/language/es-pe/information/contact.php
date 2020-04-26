@@ -1,27 +1,18 @@
 <?php
-// Heading
-$_['heading_title']  = 'Contacto';
-
-// Text
-$_['text_location']  = 'Ubicación del Comercio';
-$_['text_store']     = 'Comercios';
-$_['text_contact']   = 'Formulario de Contacto';
-$_['text_address']   = 'Dirección';
-$_['text_telephone'] = 'Teléfono';
-$_['text_fax']       = 'Fax';
-$_['text_open']      = 'Horarios de Atención';
-$_['text_comment']   = 'Comentarios';
-$_['text_success']   = '<p>Consulta enviada Exitosamente.</p>';
-
-// Entry
-$_['entry_name']     = 'Nombre';
-$_['entry_email']    = 'Email';
-$_['entry_enquiry']  = 'Consulta';
-
-// Email
-$_['email_subject']  = 'Consulta %s';
-
-// Errors
-$_['error_name']     = 'El Nombre debe contener entre 3 y 32 caracteres.';
-$_['error_email']    = 'Email Inválido.';
-$_['error_enquiry']  = 'La Consulta debe contener entre 10 y 3000 caracteres.';
+$_['heading_title'] 	=  'Contáctenos';
+$_['text_location'] 	=  'nuestra ubicación';
+$_['text_store'] 	=  'Nuestras Tiendas';
+$_['text_contact'] 	=  'Formulario de contacto';
+$_['text_address'] 	=  'Dirección';
+$_['text_telephone'] 	=  'Teléfono';
+$_['text_fax'] 	=  'Fax';
+$_['text_open'] 	=  'Los horarios de apertura';
+$_['text_comment'] 	=  'Comentarios';
+$_['text_success'] 	=  '<p> Su consulta ha sido enviada correctamente al propietario de la tienda! </p>';
+$_['entry_name'] 	=  'Tu nombre';
+$_['entry_email'] 	=  'Dirección de correo electrónico';
+$_['entry_enquiry'] 	=  'Investigación';
+$_['email_subject'] 	=  'Consulta %s';
+$_['error_name'] 	=  '¡El nombre debe tener entre 3 y 32 caracteres!';
+$_['error_email'] 	=  '¡La dirección de correo electrónico no parece válida!';
+$_['error_enquiry'] 	=  '¡La investigación debe tener entre 10 y 3000 caracteres!';

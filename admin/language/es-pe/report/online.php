@@ -1,27 +1,18 @@
 <?php
-// Heading
-$_['heading_title']     = 'Reporte de Personas Online';
-
-// Text
-$_['text_extension']    = 'Extensiones';
-$_['text_success']      = 'Operación Exitosa: Reporte de Personas Online Modificado.';
-$_['text_list']         = 'Listado de Personas Online';
-$_['text_filter']       = 'Filtro';
-$_['text_guest']        = 'Invitado';
-
-// Column
-$_['column_ip']         = 'IP';
-$_['column_customer']   = 'Cliente';
-$_['column_url']        = 'Ultima Página Visitada';
-$_['column_referer']    = 'Referente';
-$_['column_date_added'] = 'Ultimo Click';
-$_['column_action']     = 'Acción';
-
-// Entry
-$_['entry_ip']          = 'IP';
-$_['entry_customer']    = 'Cliente';
-$_['entry_status']      = 'Estado';
-$_['entry_sort_order']  = 'Orden';
-
-// Error
-$_['error_permission']  = 'Error: Sin permiso para modificar el Reporte de Personas Online.';
+$_['heading_title'] 	=  'Informe en Línea';
+$_['text_extension'] 	=  'Extensiones';
+$_['text_success'] 	=  'Éxito: ¡Usted ha modificado el informe en línea de sus clientes!';
+$_['text_list'] 	=  'Lista en línea';
+$_['text_filter'] 	=  'Filtrar';
+$_['text_guest'] 	=  'Huésped';
+$_['column_ip'] 	=  'IP';
+$_['column_customer'] 	=  'Cliente';
+$_['column_url'] 	=  'Última página visitada';
+$_['column_referer'] 	=  'Referente';
+$_['column_date_added'] 	=  'Último clic';
+$_['column_action'] 	=  'Acción';
+$_['entry_ip'] 	=  'IP';
+$_['entry_customer'] 	=  'Cliente';
+$_['entry_status'] 	=  'Estado';
+$_['entry_sort_order'] 	=  'Orden de Clasificación';
+$_['error_permission'] 	=  'Advertencia: ¡No tiene permiso para modificar el informe en línea de los clientes!';

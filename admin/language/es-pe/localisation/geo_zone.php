@@ -1,27 +1,27 @@
 <?php
 // Heading
-$_['heading_title']      = 'Zonas Geográficas';
+$_['heading_title']      = 'Geo Zones';
 
 // Text
-$_['text_success']       = 'Operación Exitosa: Zona Geográfica Modificada.';
-$_['text_list']          = 'Listado de Zonas Geográficas';
-$_['text_add']           = 'Agregar Zona Geográfica';
-$_['text_edit']          = 'Editar Zona Geográfica';
-$_['text_geo_zone']      = 'Zonas Geográficas';
+$_['text_success']       = 'Success: You have modified geo zones!';
+$_['text_list']          = 'Geo Zone List';
+$_['text_add']           = 'Add Geo Zone';
+$_['text_edit']          = 'Edit Geo Zone';
+$_['text_geo_zone']      = 'Geo Zones';
 
 // Column
-$_['column_name']        = 'Nombre de la Zona Geográfica';
-$_['column_description'] = 'Descripción';
-$_['column_action']      = 'Acción';
+$_['column_name']        = 'Geo Zone Name';
+$_['column_description'] = 'Description';
+$_['column_action']      = 'Action';
 
 // Entry
-$_['entry_name']         = 'Nombre de la Zona Geográfica';
-$_['entry_description']  = 'Descripción';
-$_['entry_country']      = 'País';
-$_['entry_zone']         = 'Zona';
+$_['entry_name']         = 'Geo Zone Name';
+$_['entry_description']  = 'Description';
+$_['entry_country']      = 'Country';
+$_['entry_zone']         = 'Zone';
 
 // Error
-$_['error_permission']   = 'Error: Sin permiso para modificar Zonas Geográficas.';
-$_['error_name']         = 'El Nombre de la Zona Geográfica debe contener entre 3 y 32 caracteres.';
-$_['error_description']  = 'La Descripción debe contener entre 3 y 255 caracteres.';
-$_['error_tax_rate']     = 'Error: La Zona Geográfica no puede ser eliminada porque está asignada a Impuestos.';
+$_['error_permission']   = 'Warning: You do not have permission to modify geo zones!';
+$_['error_name']         = 'Geo Zone Name must be between 3 and 32 characters!';
+$_['error_description']  = 'Description Name must be between 3 and 255 characters!';
+$_['error_tax_rate']     = 'Warning: This geo zone cannot be deleted as it is currently assigned to one or more tax rates!';

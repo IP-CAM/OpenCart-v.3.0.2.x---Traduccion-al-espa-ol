@@ -1,33 +1,26 @@
 <?php
-// Heading
-$_['heading_title']        = 'Registrar Cuenta';
-
-// Text
-$_['text_account']         = 'Cuenta';
-$_['text_register']        = 'Registrar';
-$_['text_account_already'] = 'Si ya tiene registrada una cuenta, acceder desde <a href="%s">aquí</a>.';
-$_['text_your_details']    = 'Detalles Personales';
-$_['text_newsletter']      = 'Newsletter';
-$_['text_your_password']   = 'Contraseña';
-$_['text_agree']           = 'Comprendí y Acepto the <a href="%s" class="agree"><b>%s</b></a>';
-
-// Entry
-$_['entry_customer_group'] = 'Grupo de Clientes';
-$_['entry_firstname']      = 'Nombre';
-$_['entry_lastname']       = 'Apellido';
-$_['entry_email']          = 'Email';
-$_['entry_telephone']      = 'Teléfono';
-$_['entry_newsletter']     = 'Suscribir';
-$_['entry_password']       = 'Contraseña';
-$_['entry_confirm']        = 'Confirmar Contraseña';
-
-// Error
-$_['error_exists']         = 'Error: Email ya Registrado.';
-$_['error_firstname']      = 'El Nombre debe contener entre 1 y 32 caracteres.';
-$_['error_lastname']       = 'El Apellido debe contener entre 1 y 32 caracteres.';
-$_['error_email']          = 'Email Inválido.';
-$_['error_telephone']      = 'El Teléfono debe contener entre 3 y 32 caracteres.';
-$_['error_custom_field']   = '%s Obligatorio.';
-$_['error_password']       = 'La Contraseña debe contener entre 4 y 20 caracteres.';
-$_['error_confirm']        = 'La Contraseña y su Confirmación no coinciden.';
-$_['error_agree']          = 'Error: Se debe Aceptar %s.';
+$_['heading_title'] 	    =  'Registrar Cuenta';
+$_['text_account'] 	        =  'Cuenta';
+$_['text_register'] 	    =  'Registro';
+$_['text_account_already'] 	=  'Si ya tiene una cuenta con nosotros, inicie sesión en la <a href="%s"> página de inicio de sesión </a>.';
+$_['text_your_details'] 	=  'Tus datos personales';
+$_['text_newsletter'] 	    =  'Hoja informativa';
+$_['text_your_password'] 	=  'Tu contraseña';
+$_['text_agree'] 	        =  'He leído y acepto el <a href="%s" class="agree"> <b> %s </ b> </a>';
+$_['entry_customer_group'] 	=  'grupo de clientes';
+$_['entry_firstname'] 	    =  'Nombre';
+$_['entry_lastname'] 	    =  'Apellido';
+$_['entry_email'] 	        =  'Correo electronico';
+$_['entry_telephone'] 	    =  'Teléfono';
+$_['entry_newsletter'] 	    =  'Suscribir';
+$_['entry_password'] 	    =  'Contraseña';
+$_['entry_confirm'] 	    =  'Contraseña confirmada';
+$_['error_exists'] 	        =  'Advertencia: ¡La dirección de correo electrónico ya está registrada!';
+$_['error_firstname'] 	    =  '¡El nombre completo debe tener entre 1 y 32 caracteres!';
+$_['error_lastname'] 	    =  '¡El apellido debe tener entre 1 y 32 caracteres!';
+$_['error_email'] 	        =  '¡La dirección de correo electrónico no parece válida!';
+$_['error_telephone'] 	    =  '¡El teléfono debe tener entre 3 y 32 caracteres!';
+$_['error_custom_field'] 	=  'Se requiere %s!';
+$_['error_password'] 	    =  '¡La contraseña debe tener entre 4 y 20 caracteres!';
+$_['error_confirm'] 	    =  '¡La confirmación de la contraseña no coincide con la contraseña!';
+$_['error_agree'] 	        =  'Advertencia: ¡Debe aceptar el %s!';

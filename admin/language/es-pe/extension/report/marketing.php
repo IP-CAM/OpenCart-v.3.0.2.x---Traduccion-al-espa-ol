@@ -1,27 +1,27 @@
 <?php
 // Heading
-$_['heading_title']    = 'Reporte de Marketing';
+$_['heading_title']    = 'Marketing Report';
 
 // Text
-$_['text_extension']   = 'Extensiones';
-$_['text_edit']        = 'Editar Reporte de Marketing';
-$_['text_success']     = 'Operación Exitosa: Reporte de Marketing Modificado.';
-$_['text_filter']      = 'Filtro';
-$_['text_all_status']  = 'Todos los Estados';
+$_['text_extension']   = 'Extensions';
+$_['text_edit']        = 'Edit Marketing Report';
+$_['text_success']     = 'Success: You have modified marketing report!';
+$_['text_filter']      = 'Filter';
+$_['text_all_status']  = 'All Statuses';
 
 // Column
-$_['column_campaign']  = 'Nombre de la Campaña';
-$_['column_code']      = 'Código';
+$_['column_campaign']  = 'Campaign Name';
+$_['column_code']      = 'Code';
 $_['column_clicks']    = 'Clicks';
-$_['column_orders']    = 'N° Pedidos';
+$_['column_orders']    = 'No. Orders';
 $_['column_total']     = 'Total';
 
 // Entry
-$_['entry_date_start'] = 'Fecha Inicio';
-$_['entry_date_end']   = 'Fecha Fin';
-$_['entry_status']     = 'Estado del Pedido';
-$_['entry_status']     = 'Estado';
-$_['entry_sort_order'] = 'Orden';
+$_['entry_date_start'] = 'Date Start';
+$_['entry_date_end']   = 'Date End';
+$_['entry_status']     = 'Order Status';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
 
 // Error
-$_['error_permission']  = 'Error: Sin permiso para modificar el Reporte de Marketing.';
+$_['error_permission']  = 'Warning: You do not have permission to modify marketing report!';

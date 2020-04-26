@@ -1,22 +1,22 @@
 <?php
 // Heading
-$_['heading_title']    = 'Estados de Devolución';
+$_['heading_title']    = 'Return Statuses';
 
 // Text
-$_['text_success']     = 'Operación Exitosa: Estado de Devolución Modificado.';
-$_['text_list']        = 'Lista de Estado de Devolución';
-$_['text_add']         = 'Agregar Estado de Devolución';
-$_['text_edit']        = 'Editar Estado de Devolución';
+$_['text_success']     = 'Success: You have modified return statuses!';
+$_['text_list']        = 'Return Status List';
+$_['text_add']         = 'Add Return Status';
+$_['text_edit']        = 'Edit Return Status';
 
 // Column
-$_['column_name']      = 'Nombre del Estado';
-$_['column_action']    = 'Acción';
+$_['column_name']      = 'Return Status Name';
+$_['column_action']    = 'Action';
 
 // Entry
-$_['entry_name']       = 'Nombre del Estado';
+$_['entry_name']       = 'Return Status Name';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar Estados de Devolución.';
-$_['error_name']       = 'El Nombre del Estado debe contener entre 3 y 32 caracteres.';
-$_['error_default']    = 'Error: El Estado no puede ser eliminado porque está asignado como Estado de Devolución por Defecto.';
-$_['error_return']     = 'Error: El Estado no puede ser eliminado porque está asignado a %s Devoluciones.';
+$_['error_permission'] = 'Warning: You do not have permission to modify return statuses!';
+$_['error_name']       = 'Return Status Name must be between 3 and 32 characters!';
+$_['error_default']    = 'Warning: This return status cannot be deleted as it is currently assigned as the default return status!';
+$_['error_return']     = 'Warning: This return status cannot be deleted as it is currently assigned to %s returns!';

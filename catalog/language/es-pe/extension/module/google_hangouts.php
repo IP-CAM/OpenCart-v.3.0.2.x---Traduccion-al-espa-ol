@@ -1,3 +1,3 @@
 <?php
 // Heading
-$_['heading_title'] = 'Chat Google Hangouts';
+$_['heading_title'] = 'Live Chat';

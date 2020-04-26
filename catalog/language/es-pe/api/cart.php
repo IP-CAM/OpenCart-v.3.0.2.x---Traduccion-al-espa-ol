@@ -1,10 +1,7 @@
 <?php
-// Text
-$_['text_success']     = 'Operación Exitosa: Se ha modificado el Carro de Compras.';
-
-// Error
-$_['error_permission'] = 'Error: Sin permiso para acceder a la API.';
-$_['error_stock']      = 'Los Productos marcados con *** no están disponibles en la Cantidad deseada o no están en Stock.';
-$_['error_minimum']    = 'La Cantidad Mínima de Pedido para %s es %s.';
-$_['error_store']      = 'El Producto no puede ser comprado.';
-$_['error_required']   = '%s Obligatorio.';
+$_['text_success'] 	=  'Éxito: ¡Has modificado tu carrito de compras!';
+$_['error_permission'] 	=  'Advertencia: ¡No tiene permiso para acceder a la API!';
+$_['error_stock'] 	=  '¡Los productos marcados con *** no están disponibles en la cantidad deseada o no en stock!';
+$_['error_minimum'] 	=  'La cantidad mínima de pedido para %s es %s!';
+$_['error_store'] 	=  '¡El producto no se puede comprar en la tienda que ha elegido!';
+$_['error_required'] 	=  'Se requiere %s!';

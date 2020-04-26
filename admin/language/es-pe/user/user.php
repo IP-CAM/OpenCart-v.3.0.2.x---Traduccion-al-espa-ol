@@ -1,38 +1,29 @@
 <?php
-// Heading
-$_['heading_title']         = 'Usuarios';
-
-// Text
-$_['text_success']          = 'Operación Exitosa: You have modified users.';
-$_['text_list']             = 'User List';
-$_['text_add']              = 'Add User';
-$_['text_edit']             = 'Edit User';
-
-// Column
-$_['column_username']       = 'Nombre de Usuario';
-$_['column_status']         = 'Estado';
-$_['column_date_added']     = 'Fecha Alta';
-$_['column_action']         = 'Acción';
-
-// Entry
-$_['entry_username']        = 'Nombre de Usuario';
-$_['entry_user_group']      = 'Grupo de Usuarios';
-$_['entry_password']        = 'Contraseña';
-$_['entry_confirm']         = 'Confirmar';
-$_['entry_firstname']       = 'Nombre';
-$_['entry_lastname']        = 'Apellido';
-$_['entry_email']           = 'Email';
-$_['entry_image']           = 'Imagen';
-$_['entry_status']          = 'Estado';
-
-// Error
-$_['error_permission']      = 'Error: Sin permiso para modificar Usuarios.';
-$_['error_account']         = 'Error: No se puede eliminar el Propio Usuario.';
-$_['error_exists_username'] = 'Error: El Nombre de Usuario ya está en uso.';
-$_['error_username']        = 'El Nombre de Usuario debe contener entre 3 y 20 caracteres.';
-$_['error_password']        = 'La Contraseña debe contener entre 4 y 20 caracteres.';
-$_['error_confirm']         = 'La Contraseña y su Confirmación no coinciden.';
-$_['error_firstname']       = 'El Nombre debe contener entre 1 y 32 caracteres.';
-$_['error_lastname']        = 'El Apellido debe contener entre 1 y 32 caracteres.';
-$_['error_email']           = 'Email Inválida.';
-$_['error_exists_email']    = 'Error: Email ya Registrado.';
+$_['heading_title'] 	=  'Usuarios';
+$_['text_success'] 	=  'Éxito: ¡Has modificado los usuarios!';
+$_['text_list'] 	=  'Lista de usuarios';
+$_['text_add'] 	=  'Agregar usuario';
+$_['text_edit'] 	=  'editar usuario';
+$_['column_username'] 	=  'Nombre de usuario';
+$_['column_status'] 	=  'Estado';
+$_['column_date_added'] 	=  'Fecha Agregada';
+$_['column_action'] 	=  'Acción';
+$_['entry_username'] 	=  'Nombre de usuario';
+$_['entry_user_group'] 	=  'Grupo de usuario';
+$_['entry_password'] 	=  'Contraseña';
+$_['entry_confirm'] 	=  'Confirmar';
+$_['entry_firstname'] 	=  'Nombre de pila';
+$_['entry_lastname'] 	=  'Apellido';
+$_['entry_email'] 	=  'Correo electrónico';
+$_['entry_image'] 	=  'Imagen';
+$_['entry_status'] 	=  'Estado';
+$_['error_permission'] 	=  'Advertencia: ¡No tienes permiso para modificar usuarios!';
+$_['error_account'] 	=  'Advertencia: ¡No puedes eliminar tu propia cuenta!';
+$_['error_exists_username'] 	=  'Advertencia: ¡El nombre de usuario ya está en uso!';
+$_['error_username'] 	=  '¡El nombre de usuario debe tener entre 3 y 20 caracteres!';
+$_['error_password'] 	=  '¡La contraseña debe tener entre 4 y 20 caracteres!';
+$_['error_confirm'] 	=  'Confirmación de contraseña y contraseña no coinciden!';
+$_['error_firstname'] 	=  '¡El nombre completo debe tener entre 1 y 32 caracteres!';
+$_['error_lastname'] 	=  '¡El apellido debe tener entre 1 y 32 caracteres!';
+$_['error_email'] 	=  '¡La dirección de correo electrónico no parece válida!';
+$_['error_exists_email'] 	=  'Advertencia: ¡La dirección de correo electrónico ya está registrada!';

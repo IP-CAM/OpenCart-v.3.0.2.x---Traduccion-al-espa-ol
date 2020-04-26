@@ -1,22 +1,15 @@
 <?php
-// Heading
-$_['heading_title']                = 'Acceso';
-
-// Text
-$_['text_account']                 = 'Cuenta';
-$_['text_login']                   = 'Acceder';
-$_['text_new_customer']            = 'Nuevo Cliente';
-$_['text_register']                = 'Registrar Cuenta';
-$_['text_register_account']        = 'El crear una cuenta brinda ciertas ventajas como comprar más rápido, verificar el Estado de los Pedidos, y realizar el Seguiemiento de los mismos.';
-$_['text_returning_customer']      = 'Cliente Existente';
-$_['text_i_am_returning_customer'] = 'Nuevo Cliente';
-$_['text_forgotten']               = 'Contraseña Olvidada';
-
-// Entry
-$_['entry_email']                  = 'Email';
-$_['entry_password']               = 'Contraseña';
-
-// Error
-$_['error_login']                  = 'Error: Email y/o Contraseña Incorrectos.';
-$_['error_attempts']               = 'Error: Demasiados intentos de Acceso Fallidos. Tratar nuevamente dentro de 1 hora.';
-$_['error_approved']               = 'Error: La Cuenta require ser Aprobada por un Administrador para poder acceder al Sistema.';
+$_['heading_title'] 	=  'Cuenta de Ingreso';
+$_['text_account'] 	=  'Cuenta';
+$_['text_login'] 	=  'Iniciar sesión';
+$_['text_new_customer'] 	=  'Nuevo cliente';
+$_['text_register'] 	=  'Registrar Cuenta';
+$_['text_register_account'] 	=  'Al crear una cuenta podrá comprar más rápido, estar al día en el estado de una orden y realizar un seguimiento de los pedidos que ha realizado anteriormente.';
+$_['text_returning_customer'] 	=  'Soy Cliente';
+$_['text_i_am_returning_customer'] 	=  'Yo soy cliente';
+$_['text_forgotten'] 	=  'Contraseña olvidada';
+$_['entry_email'] 	=  'Dirección de correo electrónico';
+$_['entry_password'] 	=  'Contraseña';
+$_['error_login'] 	=  'Advertencia: No coincide con la dirección de correo electrónico y / o la contraseña.';
+$_['error_attempts'] 	=  'Advertencia: su cuenta ha excedido el número permitido de intentos de inicio de sesión. Inténtalo de nuevo en 1 hora.';
+$_['error_approved'] 	=  'Advertencia: su cuenta requiere aprobación antes de iniciar sesión.';

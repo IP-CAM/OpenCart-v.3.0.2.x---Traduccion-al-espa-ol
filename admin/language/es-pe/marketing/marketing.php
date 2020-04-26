@@ -1,35 +1,35 @@
 <?php
 // Heading
-$_['heading_title']     = 'Seguimiento de Marketing';
+$_['heading_title']     = 'Marketing Tracking';
 
 // Text
-$_['text_success']      = 'Operación Exitosa: Seguimiento de Marketing Modificado.';
-$_['text_list']         = 'Lista de Seguimiento de Marketing';
-$_['text_add']          = 'Agregar Seguimiento de Marketing';
-$_['text_edit']         = 'Editar Seguimiento de Marketing';
-$_['text_filter']       = 'Filtro';
+$_['text_success']      = 'Success: You have modified marketing tracking!';
+$_['text_list']         = 'Marketing Tracking List';
+$_['text_add']          = 'Add Marketing Tracking';
+$_['text_edit']         = 'Edit Marketing Tracking';
+$_['text_filter']       = 'Filter';
 		
 // Column
-$_['column_name']       = 'Nombre de Campaña';
-$_['column_code']       = 'Código';
+$_['column_name']       = 'Campaign Name';
+$_['column_code']       = 'Code';
 $_['column_clicks']     = 'Clicks';
-$_['column_orders']     = 'Pedidos';
-$_['column_date_added'] = 'Fecha Alta';
-$_['column_action']     = 'Acción';
+$_['column_orders']     = 'Orders';
+$_['column_date_added'] = 'Date Added';
+$_['column_action']     = 'Action';
 
 // Entry
-$_['entry_name']        = 'Nombre de Campaña';
-$_['entry_description'] = 'Descripción de Campaña';
-$_['entry_code']        = 'Código de Seguimiento';
-$_['entry_example']     = 'Ejemplos';
-$_['entry_date_added']  = 'Fecha Alta';
+$_['entry_name']        = 'Campaign Name';
+$_['entry_description'] = 'Campaign Description';
+$_['entry_code']        = 'Tracking Code';
+$_['entry_example']     = 'Examples';
+$_['entry_date_added']  = 'Date Added';
 
 // Help
-$_['help_code']         = 'El Código de Seguimiento está siendo utilizado por una campaña.';
-$_['help_example']      = 'Para que el sistema pueda rastrear las referencias se debe agregar el código de seguimiento al final de la URL que enlaza con el sitio.';
+$_['help_code']         = 'The tracking code that will be used to track marketing campaigns.';
+$_['help_example']      = 'So the system can track referrals you need to add the tracking code to the end of the URL linking to your site.';
 
 // Error
-$_['error_permission']  = 'Error: Sin permiso para modificar Seguimiento de Marketing.';
-$_['error_name']        = 'El Nombre de la Campaña debe contener entre 1 y 32 caracteres.';
-$_['error_code']        = 'Código de Seguimiento Obligatorio.';
-$_['error_exists']      = 'El Código de Seguimiento está siendo utilizado por otra Campaña.';
+$_['error_permission']  = 'Warning: You do not have permission to modify marketing tracking!';
+$_['error_name']        = 'Campaign must be between 1 and 32 characters!';
+$_['error_code']        = 'Tracking Code required!';
+$_['error_exists']      = 'Tracking code is being used by another campaign!';

@@ -1,29 +1,29 @@
 <?php
 // Heading
-$_['heading_title']         = 'Informe de Puntos de Recompensa';
+$_['heading_title']         = 'Customer Reward Points Report';
 
 // Text
-$_['text_extension']        = 'Extensiones';
-$_['text_edit']             = 'Editar Informe de Puntos de Recompensa';
-$_['text_success']          = 'Operación Exitosa: Informe de Puntos de Recompensa Modificado.';
-$_['text_filter']           = 'Filtro';
+$_['text_extension']        = 'Extensions';
+$_['text_edit']             = 'Edit Customer Reward Points Report';
+$_['text_success']          = 'Success: You have modified customer reward points report!';
+$_['text_filter']           = 'Filter';
 
 // Column
-$_['column_customer']       = 'Nombre del Cliente';
-$_['column_email']          = 'Email';
-$_['column_customer_group'] = 'Grupo de Clientes';
-$_['column_status']         = 'Estado';
-$_['column_points']         = 'Puntos de Recompensa';
-$_['column_orders']         = 'No. Pedidos';
+$_['column_customer']       = 'Customer Name';
+$_['column_email']          = 'E-Mail';
+$_['column_customer_group'] = 'Customer Group';
+$_['column_status']         = 'Status';
+$_['column_points']         = 'Reward Points';
+$_['column_orders']         = 'No. Orders';
 $_['column_total']          = 'Total';
-$_['column_action']         = 'Acción';
+$_['column_action']         = 'Action';
 
 // Entry
-$_['entry_date_start']      = 'Fecha Inicio';
-$_['entry_date_end']        = 'Fecha Fin';
-$_['entry_customer']        = 'Cliente';
-$_['entry_status']          = 'Estado';
-$_['entry_sort_order']      = 'Orden';
+$_['entry_date_start']      = 'Date Start';
+$_['entry_date_end']        = 'Date End';
+$_['entry_customer']        = 'Customer';
+$_['entry_status']          = 'Status';
+$_['entry_sort_order']      = 'Sort Order';
 
 // Error
-$_['error_permission']  = 'Error: Sin permiso para modificar el Informe de Puntos de Recompensa.';
+$_['error_permission']  = 'Warning: You do not have permission to modify customer reward points report!';

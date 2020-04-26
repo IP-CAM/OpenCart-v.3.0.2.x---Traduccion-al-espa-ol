@@ -1,23 +1,23 @@
 <?php
 // Heading
-$_['heading_title']    = 'Módulos';
+$_['heading_title']    = 'Modules';
 
 // Text
-$_['text_success']     = 'Operación Exitosa: Módulo Modificado.';
-$_['text_layout']      = 'Luego de instalar y configurar un módulo se puede agregar un diseño desde <a href="%s" class="alert-link">aquí</a>.';
-$_['text_add']         = 'Agregar Módulo';
-$_['text_list']        = 'Lista de Módulos';
+$_['text_success']     = 'Success: You have modified modules!';
+$_['text_layout']      = 'After you have installed and configured a module you can add it to a layout <a href="%s" class="alert-link">here</a>!';
+$_['text_add']         = 'Add Module';
+$_['text_list']        = 'Module List';
 
 // Column
-$_['column_name']      = 'Nombre del Módulo';
-$_['column_status']    = 'Estado';
-$_['column_action']    = 'Acción';
+$_['column_name']      = 'Module Name';
+$_['column_status']    = 'Status';
+$_['column_action']    = 'Action';
 
 // Entry
-$_['entry_code']       = 'Módulo';
-$_['entry_name']       = 'Nombre del Módulo';
+$_['entry_code']       = 'Module';
+$_['entry_name']       = 'Module Name';
 
 // Error
-$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Módulos.';
-$_['error_name']       = 'El Nombre del Módulo debe contener entre 3 y 64 caracteres.';
-$_['error_code']       = 'Extensión Obligatoria.';
+$_['error_permission'] = 'Warning: You do not have permission to modify modules!';
+$_['error_name']       = 'Module Name must be between 3 and 64 characters!';
+$_['error_code']       = 'Extension required!';

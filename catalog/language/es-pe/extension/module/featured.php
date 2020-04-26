@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Destacados';
+$_['heading_title'] = 'Featured';
 
 // Text
-$_['text_tax']      = 'Impuestos:';
+$_['text_tax']      = 'Ex Tax:';

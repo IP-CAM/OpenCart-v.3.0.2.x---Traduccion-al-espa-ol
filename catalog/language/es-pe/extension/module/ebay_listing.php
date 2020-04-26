@@ -1,3 +1,3 @@
 <?php
 // Heading
-$_['heading_title'] = 'En la Tienda eBay';
+$_['heading_title'] = 'On our eBay store';

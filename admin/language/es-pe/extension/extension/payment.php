@@ -1,18 +1,18 @@
 <?php
 // Heading
-$_['heading_title']     = 'Pagos';
+$_['heading_title']     = 'Payments';
 
 // Text
-$_['text_success']      = 'Operación Exitosa: pago Modificado.';
-$_['text_list']         = 'Lista de Pagos';
-$_['text_recommended']  = 'Pagos - Soluciones Recomendadas';
+$_['text_success']      = 'Success: You have modified payments!';
+$_['text_list']         = 'Payment List';
+$_['text_recommended']  = 'Payments - Recommended Solutions';
 
 
 // Column
-$_['column_name']       = 'Método de Pago';
-$_['column_status']     = 'Estado';
-$_['column_sort_order'] = 'Orden';
-$_['column_action']     = 'Acción';
+$_['column_name']       = 'Payment Method';
+$_['column_status']     = 'Status';
+$_['column_sort_order'] = 'Sort Order';
+$_['column_action']     = 'Action';
 
 // Error
-$_['error_permission']  = 'Error: Sin permiso para modificar el Módulo Pagos.';
+$_['error_permission']  = 'Warning: You do not have permission to modify payments!';
